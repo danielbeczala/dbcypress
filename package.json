@@ -3,8 +3,8 @@
 	"scripts": {
 		"start": "python3 -m http.server 1337",
 		"format": "npx prettier --write .",
-		"cypress-test-headless": "cypress run",
-		"cypress-test-headed": "cypress run --headed"
+		"triggerAllTests-headless": "npx cypress run",
+		"triggerAllTests-headed": "npx cypress run --headed"
 	},
 	"dependencies": {
 		"todomvc-app-css": "^2.0.0"
